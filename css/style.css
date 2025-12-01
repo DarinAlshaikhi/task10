@@ -1,0 +1,372 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    gap: 20px; 
+    justify-content: flex-start; 
+     padding: 22px;
+margin-top: 8px;
+align-items: center;
+margin-bottom: 16px;
+ 
+} 
+
+.header h4.Contact{
+
+  margin-left: 22px; 
+}
+
+.header .login {
+   margin-left: auto;  
+        margin-right: 20px;
+}
+
+.header .login .buttons {
+    display: flex;
+    gap: 55px;   
+
+
+}
+
+ .top-area{
+
+  background-image:url('../img/kids-online-2.png');
+
+  /* **** الكفر يتوسع وقت التعديل ع  فاستخدمت بداله أوتو padding , margin*** */
+  background-size: auto;       /* لا تكبر تلقائيًا */
+   background-attachment: fixed;/*  لما حذفتها صار عندي مسافه في راس الصفحه ال توب - تجعل الخلفية ثابتة بالنسبة للنافذة.p*/
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+    position: relative;
+ 
+    
+}
+.top-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+ left: 0;
+   right: 0;
+    bottom: 0;
+  background-color: rgba(15, 81, 223, 0.5);
+
+}
+
+/* ******* */
+.top-area > * {             
+  position: relative;
+  z-index: 2;
+}
+
+.title{
+
+    padding-bottom: 40%;
+   
+}
+.title h1{
+font-size: 34px;
+  color: #ffffff;
+  margin-left: 40px;
+padding-top: 22px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.Navbar {
+    display: flex;
+        justify-content: flex-end;
+      text-decoration: none;
+list-style: none;
+gap: 55px;
+margin-top:-26px;
+
+
+}
+
+
+.Navbar li a{
+
+  text-decoration: none;
+   color: #d0d0d0;
+   font-size: 15px;
+   margin-right: 15px;
+
+}
+.Navbar li a.home{
+  color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+.Navbar button {
+     display: flex; 
+  margin-right: 44px;
+margin-bottom:22px;
+margin-left: 100px;
+     color: #ffffff;
+ background-color: rgb(44, 119, 223);
+ border-radius: 33px;
+ border: 0;
+padding: 15px;
+padding-left: 20px;
+padding-right: 20px;
+align-items: center;
+ cursor: pointer;
+}
+
+
+
+.Navbar button:hover {
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.title .coueses{
+
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: center;
+color: #ffffff;
+padding-top: 150px;
+
+
+}
+.title .coueses h6{
+ cursor: pointer;
+}
+
+
+.title .coueses button{
+margin-top: 5PX;
+     color: #ffffff;
+ background-color: rgb(44, 119, 223);
+ border-radius: 33px;
+ border: 0;
+padding: 10px;
+justify-content: center;
+ cursor: pointer;
+
+}
+
+
+.title .coueses button:hover{
+
+
+
+background-color: rgb(255, 255, 255,0.5);
+
+
+
+}
+
+
+
+.Browse-Category{
+
+text-align: center;
+
+
+}
+
+.Top-Category{
+
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+justify-content: center;
+justify-items: center;
+text-align: center;
+margin: auto;
+
+}
+
+.Category{
+
+  padding-top: 23px;
+margin-top: 21px;
+  width: 250px;
+  height: 100px;
+  background-color: rgba(156, 235, 245, 0.3);
+ border-radius: 8px;
+
+
+}
+
+
+
+
+
+p{
+
+color: #686666;
+
+}
+
+.Category img{
+margin-top: -40px;
+float: left;
+
+}
+
+.Science img{
+
+
+margin-top: 5px;
+}
+
+.Science h3{
+
+margin-right: 26px;
+}
+
+.Science p{
+margin-right: 26px;
+
+
+}
+
+
+.Browes {
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+}
+
+.Browes p {
+
+}
+
+
+
+
+a{
+
+text-decoration: none;
+  align-items: center;
+text-align: center;
+}
+
+.start{
+
+width: 80%;
+height: 350px;
+background-color: rgb(180, 178, 178,0.2);
+margin-top: 150px;
+margin-left: 150px;
+
+} 
+
+.start h2{
+padding-top:50px ;
+text-align:left;
+color: #4e47d1;
+}
+
+
+
+
+.start p {
+    display: flex;             
+    gap: 10px;                 
+  
+    margin-top: 10px;     
+    text-align: left;    
+    width: 500px;   
+}
+
+
+
+ .student-icon{
+
+  display: flex;
+margin-left: auto;
+margin-top: -300px;
+
+
+}
+.start button{
+
+     display: flex; 
+  /* margin-right: 44px; */
+margin-top: -28px;
+margin-left: 50px;
+     color: #ffffff;
+ background-color: rgb(44, 119, 223);
+ border-radius: 33px;
+ border: 0;
+padding: 15px;
+padding-left: 20px;
+padding-right: 20px;
+align-items: center;
+ cursor: pointer;
+}
+
+
+.start button:hover{
+
+
+background-color: rgba(167, 89, 89, 0.2);
+
+
+}
+
+
+.classes{
+
+  background-color: rgba(255, 255, 255, 0.5);
+  display: grid;
+   grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+justify-items: center;
+text-align: center;
+
+}
+
+
+.class-title{
+
+padding-top:40px ;
+text-align:center;
+color: #4e47d1;
+font-family:sans-serif;
+ word-spacing: 3px;
+ font-size: 28px;
+
+}
+
+.class-p{
+
+text-align: center;
+
+}
+
+.class{
+  margin-top: 33px;
+  width: 250px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: solid 1px rgb(213, 212, 212);
+ border-radius: 10px;
+align-items: center;
+ justify-content: center;
+}
+
+
+.class img{
+
+border: solid 1px black;
+
+border-radius: 23px;
+
+}
+
+
